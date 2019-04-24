@@ -1,0 +1,8 @@
+rootProject.name = 'lid_op'
+include 'grpc-server'
+include 'grpc-lib'
+include 'grpc-client'
+include 'dao'
+include 'service'
+include 'web'
+

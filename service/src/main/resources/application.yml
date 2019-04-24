@@ -1,0 +1,9 @@
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://45.78.76.17:3306/mydata?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
+  username: root
+  password: jia123
+
+mybatis:
+  type-aliases-package: com.test.model
+  mapper-locations: classpath:/mybatis/*Mapper.xml
